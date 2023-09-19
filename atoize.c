@@ -19,7 +19,9 @@ int interactive(info_t *info)
  * Return: 1 if true, 0 if false
  */
 int is_kilom(char a, char *kilom)
+
 {
+
 	while (*kilom)
 		if (*kilom++ == a)
 			return (1);
@@ -48,7 +50,7 @@ int _isalpha(int s)
 
 int _atoi(char *b)
 {
-	int i, sign = 1, flag = 0, output; //declaration and initialization of variable
+	int i, sign = 1, flag = 0, output;
 	unsigned int result = 0;
 
 	for (i = 0; b[i] != '\0' && flag != 2; i++)
