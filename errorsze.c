@@ -9,7 +9,7 @@ void _eputs(char *str)
 	int ade = 0;
 
 	if (!str)
-		Return;
+		return;
 /*
  * the main part
 */
