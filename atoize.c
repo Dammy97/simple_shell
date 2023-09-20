@@ -13,7 +13,7 @@ int interactive(info_t *info)
 }
 
 /**
- * is_delim - checks if character is a kilometer
+ * is_kilom - checks if character is a kilometer
  * @a: the char to check
  * @kilom: the kilometer string
  * Return: 1 if true, 0 if false
