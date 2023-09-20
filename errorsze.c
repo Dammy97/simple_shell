@@ -9,14 +9,10 @@ void _eputs(char *str)
 	int ade = 0;
 
 	if (!str)
-<<<<<<< HEAD
-	Return();
-=======
+
 		return;
->>>>>>> bb78b1d7984e11c1b8a73611cdc33f1644ca2d6e
-/*
- * the main part
-*/
+
+
 	while (str[ade] != '\0')
 	{
 		_eputchar(str[ade]);
